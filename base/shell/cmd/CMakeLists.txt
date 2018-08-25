@@ -67,6 +67,9 @@ list(APPEND SOURCE
     where.c
     window.c
     precomp.h)
+	
+	list(APPEND SOURCE
+    test.c)
 
 add_rc_deps(cmd.rc ${CMAKE_CURRENT_SOURCE_DIR}/res/terminal.ico)
 add_executable(cmd ${SOURCE} cmd.rc)
