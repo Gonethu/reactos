@@ -50,6 +50,10 @@ COMMAND cmds[] =
     {_T("beep"),     0, cmd_beep},
 #endif
 
+#ifdef INCLUDE_CMD_TEST
+	{ _T("test"),     0, cmd_test },
+#endif
+
     {_T("call"), CMD_BATCHONLY, cmd_call},
 
 #ifdef INCLUDE_CMD_CHDIR

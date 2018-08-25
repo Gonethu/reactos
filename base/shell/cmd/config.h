@@ -91,3 +91,8 @@
 #ifdef NT4_INTERNAL_COMMANDS
 #define INCLUDE_CMD_WINDOW
 #endif
+
+
+//Gonethu
+
+#define INCLUDE_CMD_TEST

@@ -78,6 +78,14 @@ INT CommandChoice (LPTSTR);
 /* Prototypes for CLS.C */
 INT cmd_cls (LPTSTR);
 
+//////////////////////////////////////////////////
+//Gonethu
+
+/* Prototypes for TEST.CPP */
+INT cmd_test(LPTSTR);
+
+//////////////////////////////////////////////////
+
 /* Prototypes for CMD.C */
 INT ConvertULargeInteger(ULONGLONG num, LPTSTR des, UINT len, BOOL bPutSeparator);
 HANDLE RunFile(DWORD, LPTSTR, LPTSTR, LPTSTR, INT);
